@@ -1,0 +1,44 @@
+.btn {
+    color: white;
+    background-color: rgba(102, 51, 153, 0.603);
+    border: rgba(102, 51, 153, 0.479) 1px solid;
+    padding: 10px;
+    margin-left: 25px;
+    margin-right: 25px;
+    font-size: 35px;
+    border-radius: 50px;
+    margin-top: 40vh;;
+    font-family: 'Fredoka One', cursive;
+    transition: all 0.5s;
+    box-shadow: 2px 2px 5px rgb(128, 125, 125);
+}
+
+.btn:hover {
+    transform: scale(1.05);
+}
+
+.btn:active {
+    color: rgb(0, 0, 0);
+    box-shadow: 0 3px #666;
+    transform: translateY(1px);
+}
+body {
+    display: flex;
+    justify-content: center;
+}
+html {
+    width: 100%;
+    height: 100%;    
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url('bg.jpg');
+}
+
+
+
+
+
+
+
